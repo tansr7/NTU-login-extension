@@ -1,5 +1,5 @@
 # NTU-login-extension
-My chrome extension implementation of the SSO login, I don't particularly like to be redirected through two login pages. This is particularly so for the temperature declaration that we have to do during this DORSCON Orange due to COVID-19. Minutes lost for logging in twice a day!
+My chrome extension implementation of the SSO login, I don't particularly like to be redirected through two login pages. 
 
 Feel free to clone and fork, but do read the source code before you do, and understand how it works.
 
@@ -10,7 +10,7 @@ This is non-malicious: feel free to look at the source. The `ssoLogin` content s
 
 # Why 
 
-It's way faster than logging in manually 
+It's way faster than logging in manually. 
 
 # Security
 

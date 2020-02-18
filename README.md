@@ -25,10 +25,8 @@ Open `chrome://extensions` in Chrome, click `Load Unpacked` and navigate to your
 1. `popupLogin` (for intu/star wars) script by simply follows the SSO login link ? Only managed to bypass it by parsing user_id and password directly to the address bar (gg security)
 2. Automatic temperature logging / star selection
 3. Automatic login when site is redirected to login page. Listens for a change in tab url and will run the appropriate content script ?
-
-4a. Reading credentials from autofill such as Google Chrome password manager/Lasspass/Keychain for added security
-
-4b. Css for users to enter their credentials
+4. - Reading credentials from autofill such as Google Chrome password manager/Lasspass/Keychain for added security
+   - Css for users to enter their credentials
 
 # Thanks
 

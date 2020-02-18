@@ -23,4 +23,4 @@ Open `chrome://extensions` in Chrome, click `Load Unpacked` and navigate to your
 
 # Thanks
 
-- [SUTD sso login](https://github.com/joel-huang)
+- [SUTD sso login](https://github.com/joel-huang/edimension-sso-login)

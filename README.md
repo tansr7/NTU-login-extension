@@ -8,7 +8,12 @@ This is non-malicious: feel free to look at the source. The `ssoLogin` content s
 
 ![login_demo](./assets/login_demo.gif)
 
+# Why 
+
+It's way faster than logging in manually 
+
 # Keep your credentials secure
+
 Be careful of whom and what you share. Users should exercise extra caution when handling files containing credentials. This extension should really only be used by *yourself* for *yourself*. 
 
 # Installation
@@ -17,9 +22,10 @@ Open `chrome://extensions` in Chrome, click `Load Unpacked` and navigate to your
 ![add_extension](./assets/add_extension.gif)
 
 # To-do 
-- Automatic login when site is redirected to login page. Listens for a change in tab url and will run the appropriate content script ?
-- `popupLogin` content script simply follows the SSO login link ? Only managed to bypass it by parsing user_id and password directly to the address bar (gg)
-- Reading credentials from autofill such as Google Chrome password manager/Lasspass/Keychain for added security 
+1. `popupLogin` (for intu/star wars) script by simply follows the SSO login link ? Only managed to bypass it by parsing user_id and password directly to the address bar (gg security)
+2. Automatic temperature logging / star selection
+3. Automatic login when site is redirected to login page. Listens for a change in tab url and will run the appropriate content script ?
+4. Reading credentials from autofill such as Google Chrome password manager/Lasspass/Keychain for added security 
 
 # Thanks
 

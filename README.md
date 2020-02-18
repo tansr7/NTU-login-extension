@@ -1,5 +1,5 @@
-# ntu-sso-login
-My chrome extension implementation of the automated SSO login, I don't particularly like to be redirected through two login pages. This is particularly so for the temperature declaration that we have to do during this DORSCON Orange due to COVID-19. Minutes lost for logging in twice a day!
+# NTU-login-extension
+My chrome extension implementation of the SSO login, I don't particularly like to be redirected through two login pages. This is particularly so for the temperature declaration that we have to do during this DORSCON Orange due to COVID-19. Minutes lost for logging in twice a day!
 
 Feel free to clone and fork, but do read the source code before you do, and understand how it works - keeping this unpacked so modification of the source code is easy.
 
@@ -9,7 +9,7 @@ This is non-malicious: feel free to look at the source. The `ssoLogin` content s
 ![login_demo](./assets/login_demo.gif)
 
 # Keep your credentials secure
-Be careful of whom and what you share. Users should exercise extra caution when handling files containing credentials. This extension should really only be used by yourself. 
+Be careful of whom and what you share. Users should exercise extra caution when handling files containing credentials. This extension should really only be used by *yourself* for *yourself*. 
 
 # Installation
 Open `chrome://extensions` in Chrome, click `Load Unpacked` and navigate to your local copy of this directory.
@@ -23,4 +23,4 @@ Open `chrome://extensions` in Chrome, click `Load Unpacked` and navigate to your
 
 # Thanks
 
-- [Original dev](https://github.com/joel-huang)
+- [SUTD sso login](https://github.com/joel-huang)

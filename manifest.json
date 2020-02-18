@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "ntu-sso-login",
+	"description": "NTU login bypass",
+	"version": "1.0",
+	
+	"content_scripts": [
+    {
+        "matches": ["https://sso.wis.ntu.edu.sg/*"],
+        "js": ["ssoLogin.js"]
+    }
+	],
+
+	"permissions": [
+		"tabs",
+		"activeTab",
+		"https://sso.wis.ntu.edu.sg/*"
+	]
+}

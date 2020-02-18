@@ -3,7 +3,7 @@ My chrome extension implementation of the SSO login, I don't particularly like t
 
 Feel free to clone and fork, but do read the source code before you do, and understand how it works - keeping this unpacked so modification of the source code is easy.
 
-# How it works
+# How
 This is non-malicious: feel free to look at the source. The `ssoLogin` content script fills in the user_id and password fields with the values from the javascript file itself. By doing so, login is almost instantaneous. 
 
 ![login_demo](./assets/login_demo.gif)
@@ -12,7 +12,7 @@ This is non-malicious: feel free to look at the source. The `ssoLogin` content s
 
 It's way faster than logging in manually 
 
-# Keep your credentials secure
+# Security
 
 Be careful of whom and what you share. Users should exercise extra caution when handling files containing credentials. This extension should really only be used by *yourself* for *yourself*. 
 

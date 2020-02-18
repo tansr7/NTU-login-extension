@@ -1,7 +1,7 @@
 # NTU-login-extension
 My chrome extension implementation of the SSO login, I don't particularly like to be redirected through two login pages. This is particularly so for the temperature declaration that we have to do during this DORSCON Orange due to COVID-19. Minutes lost for logging in twice a day!
 
-Feel free to clone and fork, but do read the source code before you do, and understand how it works - keeping this unpacked so modification of the source code is easy.
+Feel free to clone and fork, but do read the source code before you do, and understand how it works.
 
 # How
 This is non-malicious: feel free to look at the source. The `ssoLogin` content script fills in the user_id and password fields with the values from the javascript file itself. By doing so, login is almost instantaneous. 

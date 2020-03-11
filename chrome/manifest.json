@@ -1,0 +1,42 @@
+{
+	"manifest_version": 2,
+	"name": "ntu-sso-login",
+	"description": "NTU login bypass",
+	"version": "1",
+
+	"options_page": "./options.html",
+
+	"background": {
+		"scripts": ["./scripts/background.js"],
+		"persistent": false
+	},
+	
+	"content_scripts": [
+    {
+        "matches": ["https://sso.wis.ntu.edu.sg/*"],
+        "js": ["./scripts/ssoLogin.js"]
+	},
+	{
+		"matches": ["https://intu.ntu.edu.sg/_forms/*"],
+		"js": ["./scripts/intuLogin.js"]	
+	},
+	{
+		"matches": ["https://wish.wis.ntu.edu.sg/pls/webexe/AUS_STARS_PLANNER.time_table", 
+			"https://wish.wis.ntu.edu.sg/pls/webexe/AUS_STARS_PLANNER.planner"],
+		"js": ["./scripts/starWars.js"]
+	},
+	{
+		"matches": ["https://wish.wis.ntu.edu.sg/pls/webexe/ldap_login.login?w_url=https://wish.wis.ntu.edu.sg/pls/webexe/aus_stars_planner.main", 
+			"https://wish.wis.ntu.edu.sg/pls/webexe/LDAP_login.login2"],
+		"js": ["./scripts/wishLogin.js"] 
+	}
+	],
+
+	"permissions": [
+		"activeTab",
+		"storage",
+		"https://sso.wis.ntu.edu.sg/*",
+		"https://intu.ntu.edu.sg/*",
+		"https://wish.wis.ntu.edu.sg/*"
+	]
+}

@@ -16,7 +16,7 @@ Git clone this repository or head over to the [releases](https://github.com/TanS
 
 Open `chrome://extensions` in Chrome, click `Load Unpacked` and navigate to your local copy of the chrome extension directory.
 
-<img src="./assets/add_extension.gif" alt="add_extension" style="zoom:33%;" />
+<img src="./assets/add_extension.gif" alt="add_extension" width="500"/>
 
 #### Firefox
 
@@ -24,7 +24,7 @@ Drg the xpi file into firefox.
 
 ## Demo
 
-<img src="./assets/login_demo.gif" alt="login_demo" style="zoom:33%;" />
+<img src="./assets/login_demo.gif" alt="login_demo" width="500" />
 
 #### Potential issues
 

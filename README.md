@@ -1,5 +1,7 @@
 # NTU Login for Chrome and Firefox
 
+![release](https://img.shields.io/github/v/release/tanshengrong/NTU-login-extension)[![DeepScan grade](https://deepscan.io/api/teams/8036/projects/10182/branches/137010/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=8036&pid=10182&bid=137010)
+
 ![options](./assets/options.png)
 
 ![login_demo](./assets/login_demo.gif)

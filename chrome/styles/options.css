@@ -1,0 +1,23 @@
+body {
+    background: #343434;
+}
+article {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+label {
+    display: block;
+}
+input {
+    margin-bottom: 10px;
+}
+input[id='user-name'] {
+    padding-right: 3.7em;
+}
+input[id='pw'] {
+    padding-right: 4.3em;
+}

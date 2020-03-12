@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NTU SSO login extension options</title>
+<link rel="stylesheet" href="./styles/options.css">
+</head>
+  <body>
+    <article>
+      <label for="user-name">
+        User name: 
+        <input type="text" id="user-name">
+      </label>
+      
+      <label for="pw">
+        Password: 
+        <input type="password" id="pw">
+      </label>
+      
+      <label for="course-id">
+        Separate Courseid by comma. 
+        <br>
+        E.g. CZ1000,CZ1001
+        <br>
+        Course-ids(CSV):
+        <input type="text" id="course-id">
+      </label>
+      <div id="status"></div>
+      <button id="save">Save</button>
+      <script src="./scripts/options.js"></script>
+    </article>
+  </body>
+</html>

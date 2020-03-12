@@ -4,13 +4,11 @@
 
 ![options](./assets/options.png)
 
-![login_demo](./assets/login_demo.gif)
-
-# How
+## How it works
 
 Credentials entered by the user in the extension's option page is stored locally in the browser. The extension detects **relevant NTU website** that requires login and inputs the credentials into DOM elements using Javascript. As INTU login uses ASPX login form, JS is unable to access the elements. Credentials are parsed onto the web address instead.
 
-# Installation
+## Installation
 
 Git clone this repository or head over to the [releases](https://github.com/TanShengRong/NTU-login-extension/releases/). 
 
@@ -18,11 +16,15 @@ Git clone this repository or head over to the [releases](https://github.com/TanS
 
 Open `chrome://extensions` in Chrome, click `Load Unpacked` and navigate to your local copy of the chrome extension directory.
 
-![add_extension](./assets/add_extension.gif)
+<img src="./assets/add_extension.gif" alt="add_extension" style="zoom:33%;" />
 
 #### Firefox
 
 Drg the xpi file into firefox. 
+
+## Demo
+
+<img src="./assets/login_demo.gif" alt="login_demo" style="zoom:33%;" />
 
 #### Potential issues
 

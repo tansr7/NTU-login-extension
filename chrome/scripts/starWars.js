@@ -9,7 +9,7 @@ if (location.href=="https://wish.wis.ntu.edu.sg/pls/webexe/AUS_STARS_PLANNER.tim
                 let c_id_list = items.c_id_list;
                 let input_arrays = document.querySelectorAll("input[name='subj_code']");
                 console.log(c_id_list.length);
-                for (i=0; i<c_id_list.length; i++) {
+                for (let i=0; i<c_id_list.length; i++) {
                     input_arrays[i].value = c_id_list[i];
                 }
                 document.querySelector("input[value='Plan']").click();

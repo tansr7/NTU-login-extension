@@ -9,6 +9,11 @@
 		"browser_style": true,
 		"open_in_tab": true
 	},
+
+	"background": {
+        "scripts": ["./scripts/background.js"],
+        "persistent": false
+    },
 	
 	"content_scripts": [
     {
@@ -31,7 +36,6 @@
 	}
 	],
 	
-
 	"permissions": [
 		"activeTab",
 		"storage",
